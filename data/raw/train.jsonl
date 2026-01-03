@@ -1,0 +1,4 @@
+{"instruction":"Answer clearly.","input":"What is overfitting?","output":"Overfitting is when a model learns patterns that don't generalize, performing well on training data but poorly on new data."}
+{"instruction":"Answer in 2 bullet points.","input":"How can you reduce overfitting?","output":"- Use regularization like dropout or weight decay\n- Use more data or data augmentation"}
+{"instruction":"Answer concisely.","input":"What is calibration in ML?","output":"Calibration measures whether a model’s confidence matches its true accuracy."}
+{"instruction":"Answer with one sentence.","input":"Define inference for an LLM.","output":"Inference is running a trained model to produce outputs from inputs without updating its weights."}

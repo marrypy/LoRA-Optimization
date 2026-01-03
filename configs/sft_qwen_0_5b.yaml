@@ -1,0 +1,24 @@
+model_name: Qwen/Qwen2.5-0.5B-Instruct
+dataset_train: data/processed/train.jsonl
+dataset_valid: data/processed/valid.jsonl
+
+max_seq_len: 512
+
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+target_modules: ["q_proj","k_proj","v_proj","o_proj"]
+
+training:
+  output_dir: runs/qwen_0_5b_sft_lora
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  num_train_epochs: 3
+  learning_rate: 2e-4
+  warmup_ratio: 0.05
+  logging_steps: 10
+  eval_steps: 100
+  save_steps: 100
+  optim: adamw_torch
+  lr_scheduler_type: cosine
+  max_grad_norm: 1.0

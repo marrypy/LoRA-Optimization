@@ -1,0 +1,2 @@
+{"instruction":"Answer clearly.","input":"What is underfitting?","output":"Underfitting is when a model is too simple to capture patterns, performing poorly on both training and new data."}
+{"instruction":"Answer with one sentence.","input":"What does LoRA do?","output":"LoRA fine-tunes a model by training small low-rank adapter matrices instead of updating all parameters."}

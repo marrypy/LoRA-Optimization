@@ -1,0 +1,13 @@
+[project]
+name = "sci-llm-robustness-lora"
+version = "0.1.0"
+description = "Mac-friendly LoRA fine-tuning + evaluation pipeline for open-weight LLMs."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["src"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

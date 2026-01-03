@@ -1,0 +1,4 @@
+{"question":"Which best describes overfitting?","choices":["Model performs well on new data","Model learns noise and fails to generalize","Model has too few parameters","Model always underestimates loss"],"answer_index":1}
+{"question":"What is inference?","choices":["Training weights","Evaluating by updating weights","Running the model to get outputs","Collecting more data"],"answer_index":2}
+{"question":"Which method helps reduce overfitting?","choices":["Increase learning rate","Remove validation data","Use regularization","Train fewer epochs"],"answer_index":2}
+{"question":"What does LoRA change during fine-tuning?","choices":["All model weights","Only low-rank adapter matrices","Only embeddings","Nothing"],"answer_index":1}
